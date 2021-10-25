@@ -3,8 +3,7 @@ const CopyPlugin = require("copy-webpack-plugin");
 
 module.exports = {
   entry: {
-    popup: path.resolve(__dirname, "../src/index.tsx"),
-    background: path.resolve(__dirname, "../src/background.ts"),
+    popup: path.resolve(__dirname, "../src/index.js"),
   },
   plugins: [
     new CopyPlugin({

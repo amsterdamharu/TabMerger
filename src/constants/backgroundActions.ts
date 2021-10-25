@@ -1,3 +1,0 @@
-export const ACTIONS = {
-  GET_ALL_WINDOWS: "GET_ALL_WINDOWS"
-};
